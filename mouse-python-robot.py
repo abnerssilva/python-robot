@@ -20,7 +20,7 @@ while counter <= h:
     pyautogui.click()
     sleep(0.25)
     counter += 1
-print(f"Fim dos {n} minutos solicitados.")
+print(f"Fim de {n} minutos solicitados.")
 pyautogui.keyDown("alt")
 pyautogui.press("tab")
 pyautogui.keyUp("alt")
